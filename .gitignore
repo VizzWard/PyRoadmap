@@ -123,3 +123,4 @@ env.bak/
 # Other
 *.swp
 .idea/misc.xml
+/.idea
