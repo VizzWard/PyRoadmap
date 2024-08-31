@@ -126,3 +126,4 @@ env.bak/
 /.idea
 /.venv/
 /.idea/
+.idea/misc.xml
