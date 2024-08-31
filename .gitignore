@@ -73,6 +73,7 @@ docs/_build/
 .ipynb_checkpoints
 
 # PyCharm
+.idea
 .idea/
 *.iml
 *.iws
