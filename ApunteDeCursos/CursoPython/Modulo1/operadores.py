@@ -24,10 +24,3 @@ resultado = (x == 5) and (y == 3)
 resultado = (x < 5) or (y <= 3)
 # NOT
 resultado = not (x < 5)
-
-
-# Operador ternario
-# Ejemplo 1
-x = 5
-resultado = "Es mayor que 3" if x > 3 else "Es menor o igual que 3"
-print(resultado)  # Output: Es mayor que 3
