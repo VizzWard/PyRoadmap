@@ -1,5 +1,4 @@
 ''' Clase 8 '''
-from ApunteDeCursos.CursoPython.Modulo6.condicionales import calificacion
 
 # Ciclo For
 
