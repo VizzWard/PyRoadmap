@@ -109,7 +109,7 @@ else:
 
 Así, en Python todas las líneas continuas sangradas con el mismo número de espacios formarían un bloque. El siguiente ejemplo tiene varios bloques de sentencias:
 
-> No intentes entender la lógica en este momento. Sólo asegúrese de que ha entendido varios bloques, incluso si están sin llaves.
+> No intentes entender la lógica en este momento. Solo de que has entendido la identacion de varios bloques, incluso si están sin llaves.
 
 ```python
 import sys
