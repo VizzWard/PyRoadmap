@@ -4,13 +4,13 @@ Roadmap : [Python](https://roadmap.sh/python)
 
 Learn the Fundamentals:
 
-- [Basic Syntax](LearnFundamentals/1.BasicSyntax/)
-- [Variables](LearnFundamentals/2.Variables)
+- [Basic Syntax](1_LearnFundamentals/1_BasicSyntax/)
+- [Variables](1_LearnFundamentals/2_Variables)
 
 
 
 
 
 Carpeta extra: (Apuntes de cursos extra)
-- [Curso Python](ApunteDeCursos/CursoPython) 
-- [Backend con Python](ApunteDeCursos/BackendConPython)
+- [Curso Python](0_ApunteDeCursos/CursoPython) 
+- [Backend con Python](0_ApunteDeCursos/BackendConPython)
