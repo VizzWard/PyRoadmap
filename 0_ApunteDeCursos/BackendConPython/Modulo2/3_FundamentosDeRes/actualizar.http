@@ -1,0 +1,10 @@
+PUT /posts/100 HTTP/1.1
+Host: jsonplaceholder.typicode.com
+Content-Type: application/json
+
+{
+    "id": 1,
+    "title": "Post Actualizado",
+    "body": "Este es el contenido actualizado del post",
+    "userId": 1
+}

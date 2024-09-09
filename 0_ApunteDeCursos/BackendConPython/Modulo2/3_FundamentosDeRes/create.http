@@ -1,0 +1,9 @@
+POST /posts HTTP/1.1
+Host: jsonplaceholder.typicode.com
+Content-Type: application/json
+
+{
+    "title": "Nuevo Post",
+    "body": "Este es el contenido del nuevo post",
+    "userId": 1
+}
