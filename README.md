@@ -4,8 +4,8 @@ Roadmap : [Python](https://roadmap.sh/python)
 
 Learn the Fundamentals:
 
-- [Basic Syntax](1_LearnFundamentals/1_BasicSyntax/)
-- [Variables](1_LearnFundamentals/2_Variables)
+- [Basic Syntax](1_Python_Dev/1_Learn_the_Basics/1_BasicSyntax/)
+- [Variables](1_Python_Dev/1_Learn_the_Basics/2_Variables)
 
 
 
