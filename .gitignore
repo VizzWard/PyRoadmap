@@ -121,3 +121,4 @@ env.bak/
 
 # Other
 *.swp
+*.cnf
