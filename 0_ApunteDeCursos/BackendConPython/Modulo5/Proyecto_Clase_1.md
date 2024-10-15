@@ -209,3 +209,15 @@ from django.conf.urls.static import static
 
 urlpatterns = [] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 ```
+
+
+## Resumen
+
+- Creacion del proyecto `my_tiewnda`.
+- Creacion de la aplicacion `products`.
+    - Creacion del modelo `Products`.
+    - Creacion de la vista `index`.
+    - Creacion de la url `Home` del sitio.
+    - Creacion del template `list_of_products.html`.
+- Creacion del superuser para acceder a admin.
+- Configuracion de las urls de las imagenes del sitio.

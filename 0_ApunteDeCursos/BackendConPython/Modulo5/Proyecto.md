@@ -1,11 +1,11 @@
-Para los modulos 5 y 6, se va a crear un proyecto, que se llevara a cabo en un proyecto aparte:
+Para los modulos 5 y 6, se va a crear un proyecto que se ira creando a lo largo de las clases:
 
 - [Tienda](Proyecto)
 
 Los pasos seguidos están en los archivos:
 
 - [Clase_1](Proyecto_Clase_1.md)
-- [Clase_2](Proyecto_Clase_1.md)
+- [Clase_2](Proyecto_Clase_2.md)
 - [Clase_3](Proyecto_Clase_1.md)
 - [Clase_4](Proyecto_Clase_1.md)
 
@@ -16,8 +16,19 @@ Ruta del proyecto:
 cd .\0_ApunteDeCursos\BackendConPython\Modulo5\Proyecto\
 ```
 
-Ejecutar el servidor:
+Iniciar el servidor (local):
 
 ```commandline
-python manage.py runserver
+python manage.py runserver --settings=settings.local
+```
+
+Makemigrate:
+
+```commandline
+python manage.py makemigrations --settings=settings.local
+```
+
+Migrate:
+```commandline
+python manage.py migrate --settings=settings.local
 ```
