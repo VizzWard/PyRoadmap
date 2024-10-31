@@ -4,11 +4,15 @@ Para los modulos 5 y 6, se va a crear un proyecto que se ira creando a lo largo 
 
 Los pasos seguidos están en los archivos:
 
+__Modulo 5:__
+
 - [Clase_1](Proyecto_Clase_1.md)
 - [Clase_2](Proyecto_Clase_2.md)
-- [Clase_3](Proyecto_Clase_1.md)
-- [Clase_4](Proyecto_Clase_1.md)
 
+__Modulo 6:__
+
+- [Clase_3](Proyecto_Clase_3.md)
+- [Clase_4](Proyecto_Clase_1.md)
 
 Ruta del proyecto:
 
