@@ -9,7 +9,7 @@ Roadmap : [Python](https://roadmap.sh/python)
 - [Basic Syntax](1_Python_Dev/1_Learn_the_Basics/1_BasicSyntax)
 - [Variables](1_Python_Dev/1_Learn_the_Basics/2_Variables)
 - [Condicionales](1_Python_Dev/1_Learn_the_Basics/3_Conditionals)
-- [Loops](1_Python_Dev/1_Learn_the_Basics/3_Conditionals)
+- [Loops](1_Python_Dev/1_Learn_the_Basics/4_Loops)
 - [Type Casting](1_Python_Dev/1_Learn_the_Basics/5_Type_Casting)
 - [Exceptions](1_Python_Dev/1_Learn_the_Basics/6_Exceptions)
 - [Functions](1_Python_Dev/1_Learn_the_Basics/7_Functions)
@@ -18,9 +18,9 @@ Roadmap : [Python](https://roadmap.sh/python)
 - [Sets](1_Python_Dev/1_Learn_the_Basics/10_Sets)
 - [Dictionaries](1_Python_Dev/1_Learn_the_Basics/11_Dictionaries)
 
-2. [Data Structures & Algorithms]():
+2. [Data Structures & Algorithms](1_Python_Dev/2_Data_Structures_Algorithms):
 
-- [Arrays & Linked List]()
+- [Arrays & Linked List](1_Python_Dev/2_Data_Structures_Algorithms/1_Arrays_Linked_List)
 - [Hash Tables]()
 - [Heaps, Stacks & Queues]()
 - [Binary Search Tree]()
@@ -32,5 +32,5 @@ Roadmap : [Python](https://roadmap.sh/python)
 
 ## 0. Apuntes de otros cursos
 
-- [Curso Python](0_ApunteDeCursos/CursoPython) 
-- [Backend con Python](0_ApunteDeCursos/BackendConPython)
+- [Curso Python](0_ApunteDeCursos/CursoPython) -> [Link_del_curso]()
+- [Backend con Python](0_ApunteDeCursos/BackendConPython) -> [Link_del_curso]()
