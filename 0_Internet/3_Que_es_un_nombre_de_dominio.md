@@ -44,6 +44,7 @@ Si la respuesta comienza con un '4' o un '5' significa que se ha producido un er
 #### ¿Qué son las cabeceras de respuesta HTTP?
 Al igual que una solicitud HTTP, una respuesta HTTP viene con cabeceras que transmiten información importante como el idioma y el formato de los datos que se envían en el cuerpo de la respuesta. 
 Ejemplo de cabeceras de respuesta HTTP de la pestaña de red de Google Chrome:
+
 ![Ejemplo](img/img2.png)
 
 #### ¿Qué contiene un cuerpo de respuesta HTTP?

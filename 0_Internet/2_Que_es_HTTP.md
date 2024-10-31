@@ -14,6 +14,7 @@ Un método HTTP, a veces denominado verbo HTTP, indica la acción que la petici�
 
 ### ¿Qué son las cabeceras de petición HTTP?
 Las cabeceras HTTP contienen información de texto almacenada en pares clave-valor, y se incluyen en cada petición HTTP (y respuesta, más sobre esto más adelante). Estas cabeceras comunican información básica, como qué navegador está utilizando el cliente y qué datos se están solicitando. Ejemplo de cabeceras de solicitud HTTP de la pestaña de red de Google Chrome:
+
 ![Ejemplo](img/img1.png)
 
 ### ¿Qué hay en el cuerpo de una petición HTTP?
@@ -44,6 +45,7 @@ Si la respuesta comienza con un '4' o un '5' significa que se ha producido un er
 #### ¿Qué son las cabeceras de respuesta HTTP?
 Al igual que una solicitud HTTP, una respuesta HTTP viene con cabeceras que transmiten información importante como el idioma y el formato de los datos que se envían en el cuerpo de la respuesta. 
 Ejemplo de cabeceras de respuesta HTTP de la pestaña de red de Google Chrome:
+
 ![Ejemplo](img/img2.png)
 
 #### ¿Qué contiene un cuerpo de respuesta HTTP?

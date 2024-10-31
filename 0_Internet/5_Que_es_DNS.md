@@ -27,11 +27,14 @@ Ambos conceptos se refieren a servidores (grupos de servidores) que son parte in
 
 ### Recursive DNS resolver
 El resolver recursivo es el ordenador que responde a una petición recursiva de un cliente y se toma el tiempo necesario para localizar el registro DNS. Para ello, realiza una serie de peticiones hasta que llega al servidor de nombres DNS autoritativo para el registro solicitado (o se agota el tiempo de espera o devuelve un error si no se encuentra ningún registro). Por suerte, los resolutores DNS recursivos no siempre tienen que realizar varias peticiones para localizar los registros necesarios para responder a un cliente; el almacenamiento en caché es un proceso de persistencia de datos que ayuda a reducir las peticiones necesarias al servir el registro de recursos solicitado antes en la búsqueda DNS.
+
 ![img](img/img4.png)
 
 ### Authoritative DNS server
 En pocas palabras, un servidor DNS autoritativo es un servidor que realmente posee y es responsable de los registros de recursos DNS. Se trata del servidor situado en la parte inferior de la cadena de búsqueda DNS que responderá con el registro de recursos consultado, permitiendo en última instancia que el navegador web que realiza la solicitud alcance la dirección IP necesaria para acceder a un sitio web u otros recursos web. Un servidor de nombres autoritativo puede satisfacer consultas a partir de sus propios datos sin necesidad de consultar a otra fuente, ya que es la fuente final de verdad para determinados registros DNS.
+
 ![img](img/img5.png)
 
 Vale la pena mencionar que en los casos en que la consulta es para un subdominio como foo.example.com o blog.cloudflare.com, se añadirá un servidor de nombres adicional a la secuencia después del servidor de nombres autoritativo, que es responsable de almacenar el registro CNAME del subdominio.
+
 ![img](img/img6.png)
