@@ -1,8 +1,19 @@
 # Backend Roadmap con Python
 
-## 1. Roadmap Python
+> Roadmap Backend -> [roadmap.sh](https://roadmap.sh/backend)
 
-Roadmap : [Python](https://roadmap.sh/python)
+## 0. Internet
+
+1. [Como funciona internet?](0_Internet/1_Como_Funciona_Internet.md)
+2. [Que es HTTP](0_Internet/2_Que_es_HTTP.md)
+3. [¿Qué es un nombre de dominio?](0_Internet/3_Que_es_un_nombre_de_dominio.md)
+4. [Que es Hosting?](0_Internet/4_Hosting.md)
+5. [¿Qué es un nombre de dominio?](0_Internet/5_Que_es_DNS.md)
+6. [¿Cómo funcionan los navegadores?](0_Internet/6_Cómo_funcionan_los_navegadores.md)
+
+## 1. Pick a Language -> Python
+
+> Roadmap : [Python](https://roadmap.sh/python)
 
 1. [Learn the Basics](1_Python_Dev/1_Learn_the_Basics):
 
@@ -32,5 +43,5 @@ Roadmap : [Python](https://roadmap.sh/python)
 
 ## 0. Apuntes de otros cursos
 
-- [Curso Python](0_ApunteDeCursos/CursoPython) -> [Link_del_curso]()
-- [Backend con Python](0_ApunteDeCursos/BackendConPython) -> [Link_del_curso]()
+- [Curso Python](0_ApunteDeCursos/CursoPython) -> [Link_del_curso](https://codigofacilito.com/cursos/python-profesional)
+- [Backend con Python](0_ApunteDeCursos/BackendConPython) -> [Link_del_curso](https://codigofacilito.com/programas/backend-python-g2)
