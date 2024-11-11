@@ -15,7 +15,7 @@
 
 > Roadmap : [Python](https://roadmap.sh/python)
 
-1. [Learn the Basics](1_Python_Dev/1_Learn_the_Basics):
+### 1. [Learn the Basics](1_Python_Dev/1_Learn_the_Basics):
 
 - [Basic Syntax](1_Python_Dev/1_Learn_the_Basics/1_BasicSyntax)
 - [Variables](1_Python_Dev/1_Learn_the_Basics/2_Variables)
@@ -29,7 +29,7 @@
 - [Sets](1_Python_Dev/1_Learn_the_Basics/10_Sets)
 - [Dictionaries](1_Python_Dev/1_Learn_the_Basics/11_Dictionaries)
 
-2. [Data Structures & Algorithms](1_Python_Dev/2_Data_Structures_Algorithms):
+### 2. [Data Structures & Algorithms](1_Python_Dev/2_Data_Structures_Algorithms):
 
 - [Arrays & Linked List](1_Python_Dev/2_Data_Structures_Algorithms/1_Arrays_Linked_List)
 - [Hash Tables]()
@@ -43,5 +43,6 @@
 
 ## 0. Apuntes de otros cursos
 
-- [Curso Python](0_ApunteDeCursos/CursoPython) -> [Link_del_curso](https://codigofacilito.com/cursos/python-profesional)
-- [Backend con Python](0_ApunteDeCursos/BackendConPython) -> [Link_del_curso](https://codigofacilito.com/programas/backend-python-g2)
+- [Curso Python](0_ApunteDeCursos/CursoPython) ---> [Link_del_curso](https://codigofacilito.com/cursos/python-profesional)
+- [Backend con Python](0_ApunteDeCursos/BackendConPython) ---> [Link_del_curso](https://codigofacilito.com/programas/backend-python-g2)
+- [Python Essential 1](0_ApunteDeCursos/Python_Essentials_1) ---> [Link_del_curso](https://pythoninstitute.org/python-essentials-1)
