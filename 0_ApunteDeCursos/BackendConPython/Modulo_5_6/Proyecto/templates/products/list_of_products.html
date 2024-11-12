@@ -1,0 +1,35 @@
+{% extends 'base/base.html' %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            {% for product in products %}
+            <div class="col-3">
+                <div class="card">
+                    <img src="{{product.image.url}}"
+                         class="card-img-top float-start">
+                    <div class="card-body">
+                        <h5 class="card-title">{{product.name}}</h5>
+                        <div class="price-container">
+                            {% if product.has_discount %}
+                                <div class="price-stack">
+                                    <span class="original-price">
+                                        <s>{{ product.price }} MXN</s>
+                                    </span>
+                                    <div class="price-discount-wrapper">
+                                        <span class="final-price">{{ product.final_price }} MXN</span>
+                                        <span class="discount-badge">-{{ product.discount }}%</span>
+                                    </div>
+                                </div>
+                            {% else %}
+                                <span class="single-price">{{ product.price }} MXN</span>
+                            {% endif %}
+                        </div>
+                        <a class="btn btn-tomato" href="{% url 'get_product' id=product.id %}">Leer más</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

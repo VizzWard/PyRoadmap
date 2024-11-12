@@ -171,7 +171,7 @@ TEMPLATES = [
 ]
 ```
 
-- Vamos al archivo [list_of_products](Proyecto/templates/list_of_products.html), y modificamos la parte de las listas de productos:
+- Vamos al archivo [list_of_products](Proyecto/templates/products/list_of_products.html), y modificamos la parte de las listas de productos:
 
 ```html
 <body>

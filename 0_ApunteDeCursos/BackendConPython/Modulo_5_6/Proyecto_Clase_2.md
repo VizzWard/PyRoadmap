@@ -312,7 +312,7 @@ urlpatterns = [
 </html>
 ```
 
-6. Por ultimo, en el archivo [list_of_products.html](Proyecto/templates/list_of_products.html), lo modificaremos para agregar en enrutamiento a la nueva vista, en al parte del boton, lo modificamos:
+6. Por ultimo, en el archivo [list_of_products.html](Proyecto/templates/products/list_of_products.html), lo modificaremos para agregar en enrutamiento a la nueva vista, en al parte del boton, lo modificamos:
 
 ```html
 <a class="btn btn-tomato" href="{% url 'get_product' id=product.id %}">Leer más</a>

@@ -1,8 +1,13 @@
-Para los modulos 5 y 6, se va a crear un proyecto que se ira creando a lo largo de las clases:
+# Proyecto
+
+> Para los modulos 5 y 6, se va a crear un proyecto que sé irá creando a lo largo de las clases:
+
+
+Carpeta del proyecto:
 
 - [Tienda](Proyecto)
 
-Los pasos seguidos están en los archivos:
+Los pasos seguidos están en los archivos respectivos a cada módulo:
 
 __Modulo 5:__
 
@@ -14,10 +19,12 @@ __Modulo 6:__
 - [Clase_3](Proyecto_Clase_3.md)
 - [Clase_4](Proyecto_Clase_1.md)
 
+## Comandos comunes
+
 Ruta del proyecto:
 
 ```commandline
-cd .\0_ApunteDeCursos\BackendConPython\Modulo5\Proyecto\
+cd .\0_ApunteDeCursos\BackendConPython\Modulo_5_6\Proyecto\
 ```
 
 Iniciar el servidor (local):

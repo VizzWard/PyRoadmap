@@ -1,5 +1,7 @@
 from django.db import models
 from django.utils import timezone
+from django.core.validators import MinValueValidator, MaxValueValidator
+from decimal import Decimal
 
 # Create your models here.
 
@@ -10,8 +12,11 @@ class Products(models.Model):
     price = models.DecimalField(decimal_places=2, max_digits=10)
     sku = models.CharField(max_length=10)
     category = models.CharField(max_length=100)
+    description = models.TextField(
+        blank=True,
+        null=True
+    )
 
-    # Modificamos este parametro para referenciar de otra tabla
     brand = models.ForeignKey(
         'products.Brand',
         on_delete=models.CASCADE,
@@ -24,11 +29,27 @@ class Products(models.Model):
         upload_to='media/products'
     )
 
-    discount = models.IntegerField()
+    discount = models.IntegerField(
+        default=0,
+        validators=[
+            MinValueValidator(0),
+            MaxValueValidator(100)
+        ]
+    )
     created_date = models.DateTimeField(default=timezone.now)
     published_date = models.DateTimeField(blank=True, null=True)
 
-    # Con este metodo podremos modificar la forma de visualizar los datos en la DB
+    @property
+    def final_price(self):
+        if self.discount > 0:
+            discount_amount = (self.price * Decimal(self.discount)) / Decimal(100)
+            return self.price - discount_amount
+        return self.price
+
+    @property
+    def has_discount(self):
+        return self.discount > 0
+
     def __str__(self):
         return f'{self.name} | {self.brand}'
 
