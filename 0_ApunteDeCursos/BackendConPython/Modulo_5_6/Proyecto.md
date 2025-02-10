@@ -17,7 +17,7 @@ __Modulo 5:__
 __Modulo 6:__
 
 - [Clase_3](Proyecto_Clase_3.md)
-- [Clase_4](Proyecto_Clase_1.md)
+- [Clase_4](Proyecto_Clase_4.md)
 
 ## Comandos comunes
 

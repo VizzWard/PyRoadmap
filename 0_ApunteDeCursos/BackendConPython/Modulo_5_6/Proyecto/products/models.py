@@ -69,3 +69,25 @@ class Brand(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Comment(models.Model):
+    product = models.ForeignKey(
+        'products.Products',
+        on_delete=models.CASCADE,
+        related_name='comments'
+    )
+
+    author = models.CharField(max_length=200)
+
+    text = models.TextField()
+
+    created_date = models.DateTimeField(default=timezone.now)
+    aproved_comment = models.BooleanField(default=False)
+
+    def approve(self):
+        self.aproved_comment = True
+        self.save()
+
+    def __str__(self):
+        return self.text

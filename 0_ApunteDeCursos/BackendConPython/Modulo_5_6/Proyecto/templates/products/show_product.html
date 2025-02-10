@@ -37,5 +37,38 @@
             </div>
         </div>
     </div>
+
+
+    <div class="row">
+        {% if perms.products.add_comment %}
+        <div class="col-5 comment-column">
+            <form action="{% url 'add_new_comment' id=product.id %}"
+                method="post"
+                class="post-form">
+                {% csrf_token %}
+                <div class="input-group mb-4">
+                    {{ form.text }}
+                </div>
+                <button type="submit" class="save btn btn-dark">Enviar</button>
+            </form>
+        </div>
+        {% else %}
+            <h1>Inicia sesion para dejar tus comentarios</h1>
+                <a href="{% url 'login' %}">Login</a>
+        {% endif %}
+
+
+        <div class="comment-container">
+            <h2 class="comment-title text-left">Comentarios ({{ comments|length }})</h2>
+            {% for comment in comments %}
+                <div class="comment">
+                    <div class="date">{{ comment.created_date|date:"d M Y"}}</div>
+                    <strong>{{ comment.author }}</strong>
+                    <p>{{ comment.text }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
 </div>
-{% endblock %}
+
+{% endblock content %}

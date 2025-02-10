@@ -162,3 +162,65 @@ body {
 .navbar-brand {
     color: white;
 }
+
+/* Estilos para el botón de enviar */
+.save.btn.btn-dark {
+    background-color: #333; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 1em; /* Tamaño de fuente */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+.save.btn.btn-dark:hover {
+    background-color: #555; /* Color de fondo al pasar el cursor */
+}
+
+/* Estilos para el contenedor de comentarios */
+.comment-container {
+    max-width: 700px; /* Ajusta este valor según el ancho de tu contenedor de producto */
+    margin: 0 auto; /* Centra el contenedor */
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Estilos para cada comentario */
+.comment {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+/* Estilos para la fecha del comentario */
+.comment .date {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el autor del comentario */
+.comment strong {
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Estilos para el texto del comentario */
+.comment p {
+    font-size: 1em;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Estilos para el título de comentarios */
+.comment-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
