@@ -43,3 +43,28 @@ Migrate:
 ```commandline
 python manage.py migrate --settings=settings.local
 ```
+
+Tests:
+```commandline
+python manage.py test --settings=settings.local
+```
+
+Test one:
+```commandline
+python manage.py test $(TEST_NAME) --settings=settings.local
+```
+
+Test app accounts:
+```commandline
+python manage.py test accounts --settings=settings.local -v 2
+```
+
+Test app products:
+```commandline
+python manage.py test products.tests --settings=settings.local -v 2
+```
+
+shellplus:
+```commandline
+python manage.py shell_plus --ipython --settings=settings.local
+```

@@ -1,0 +1,51 @@
+[
+    {
+        "nombre": "León",
+        "especie": "Felino",
+        "sonido": "Ruge"
+    },
+    {
+        "nombre": "Elefante",
+        "especie": "Mamífero",
+        "sonido": "Trompeta"
+    },
+    {
+        "nombre": "Tigre",
+        "especie": "Felino",
+        "sonido": "Ruge"
+    },
+    {
+        "nombre": "Gorila",
+        "especie": "Primate",
+        "sonido": "Gruñe"
+    },
+    {
+        "nombre": "Jirafa",
+        "especie": "Mamífero",
+        "sonido": "Estira el cuello"
+    },
+    {
+        "nombre": "Pingüino",
+        "especie": "Ave",
+        "sonido": "Chapotea"
+    },
+    {
+        "nombre": "Delfín",
+        "especie": "Mamífero marino",
+        "sonido": "Chirría"
+    },
+    {
+        "nombre": "Águila",
+        "especie": "Ave rapaz",
+        "sonido": "Grita"
+    },
+    {
+        "nombre": "Tiburón",
+        "especie": "Pez",
+        "sonido": "Nada en silencio"
+    },
+    {
+        "nombre": "Cocodrilo",
+        "especie": "Reptil"
+    }
+]
