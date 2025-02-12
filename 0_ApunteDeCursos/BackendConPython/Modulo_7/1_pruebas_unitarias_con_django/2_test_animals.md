@@ -11,15 +11,17 @@ class TestBasic(unittest.TestCase):
 
 ```python
     def setUp(self):
-        self.animales = []
-        # Cargar datos de prueba desde el archivo fixtures
-        with open("examples/tests/fixtures/animals.json", "r", encoding="utf-8") as f:
-            self.data = json.load(f)
 
-        # Crear instancias de animales a partir de los datos de prueba
-        for dato in self.data:
-            animal = Animal(dato.get("nombre"), dato.get("especie"), dato.get("sonido"))
-            self.animales.append(animal)
+
+    self.animales = []
+# Cargar datos de prueba desde el archivo fixtures
+with open("examples/tests/fixtures/animals.json", "r", encoding="utf-8") as f:
+    self.data = json.load(f)
+
+# Crear instancias de animales a partir de los datos de prueba
+for dato in self.data:
+    animal = Animal(dato.get("nombre"), dato.get("especie"), dato.get("sonido"))
+    self.animales.append(animal)
 
 ```
 
