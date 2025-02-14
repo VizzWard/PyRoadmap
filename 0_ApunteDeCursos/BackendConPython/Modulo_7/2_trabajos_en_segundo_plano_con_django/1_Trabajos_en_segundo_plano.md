@@ -81,9 +81,3 @@ Un *thread* (hilo) es la unidad más pequeña de ejecución dentro de un proceso
 | Uso recomendado | Cálculos intensivos | Tareas con muchas E/S |
 
 Cada opción tiene ventajas y desventajas, por lo que la elección entre procesos y threads dependerá de la necesidad específica del proyecto.
-
----
-
-## Conclusión
-Optimizar la velocidad de respuesta y manejar tareas intensivas son aspectos esenciales en el desarrollo web. El uso de trabajos en segundo plano mediante threads y procesos ayuda a mejorar el rendimiento y la experiencia del usuario.
-
